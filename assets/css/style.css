@@ -418,7 +418,24 @@ body {
 
 .social-link:is(:hover, :focus) { background: #0220B6; }
 
+.contact-input{
+  margin:2px;
+  border-radius: 5px;
+  width: 250px;
+  height: 32px;
+  padding: 10px;
+  font-family: 'roboto';
+  font-size: 16px;
 
+}
+
+.textarea{
+  height: 40px;
+  padding: 10px;
+  resize: none;
+  height: 150px;
+
+}
 
 
 /*-----------------------------------*\
@@ -648,7 +665,7 @@ body {
    * FOOTER
    */
 
-  .footer-top { grid-template-columns: 1fr 1fr 1fr; }
+  .footer-top { grid-template-columns: 1fr 1fr 1fr 1fr; }
 
 }
 
